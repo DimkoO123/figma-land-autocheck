@@ -1,0 +1,28 @@
+@import "global.css";
+
+.header-hero {
+    background-image: url("../img/header/headerBG.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.header-hero__container {
+    max-width: 819px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header-hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+@media (min-width: 820px) {
+    .header-hero__container {
+        max-width: 1210px;
+    }
+}

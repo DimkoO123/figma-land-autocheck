@@ -4,13 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Figma Land</title>
-    <link
-      rel="shortcut icon"
-      href="img/shortcut.svg"
-      type="image/x-icon"
-    />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
       integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
@@ -18,77 +13,9 @@
     ></script>
   </head>
   <body>
-    <div class="wrapper">
-		<header class="header">
-			<div class="header__container">
-				<nav class="header__navbar">
-					<ul class="navbar__pages">
-						<li class="navbar-pages__item"><a href="#">Home</a></li>
-						<li class="navbar-pages__item"><a href="#">Product</a></li>
-						<li class="navbar-pages__item"><a href="#">Pricing</a></li>
-						<li class="navbar-pages__item"><a href="#">About</a></li>
-						<li class="navbar-pages__item"><a href="#">Contact</a></li>
-					</ul>
-					<div class="navbar__right">
-						<a href="#" class="navbar__logo">
-							<img src="img/Header/logo.svg" alt="logo" class="navbar-logo__image">
-						</a>
-						<div class="navbar__social">
-							<a href="#" class="navbar-social__item social__twitter"><img src="img/Header/twitter.svg" alt="twitter icon"></a>
-							<a href="#" class="navbar-social__item social__facebook"><img src="img/Header/facebook.svg" alt="facebook icon"></a>
-							<a href="#" class="navbar-social__item social__linkedin"><img src="img/Header/linkedin.svg" alt="linkedin icon"></a>
-						</div>
-					</div>
-				</nav>
-				<div class="header__content">
-					<h1 class="header-content__title">The best products 
-						start with Figma</h1>
-					<div class="header-content__subtitle">Most calendars are designed for teams. Slate is designed 
-						for freelancers</div>
-					<button class="free__button">Try For Free</button>
-				</div>
-			</div>
-		</header>
-		<main class="main">
-			<section class="section__features">
-				<div class="features__container">
-					<div class="features__content">	
-						<div class="features-content__description">
-							<div class="features-description__title">Features</div>
-							<div class="features-description__subtitle">Most calendars are designed for teams. 
-							Slate is designed for freelancers</div>
-						</div>
-						<div class="features-content__items">
-							<div class="features-content__item item1">
-								<div class="features-content__title">Features</div>
-								<div class="features-content__subtitle">Most calendars are designed for teams. 
-								Slate is designed for freelancers</div>
-							</div>
-							<div class="features-content__item item2">
-								<div class="features-content__title">Features</div>
-								<div class="features-content__subtitle">Most calendars are designed for teams. 
-								Slate is designed for freelancers</div>
-							</div>
-							<div class="features-content__item item3">
-								<div class="features-content__title">Features</div>
-								<div class="features-content__subtitle">Most calendars are designed for teams. 
-								Slate is designed for freelancers</div>
-							</div>
-						</div>
-						<div class="features__media">
-							<video class="features-media__item" controls>
-								<source src="video/OfficeVideo.mp4" type="video/mp4">
-							  Your browser does not support the video tag.
-							</video>
-						</div>	
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer class="footer">
-			footer
-		</footer>
-	</div>	
-	</div>
+    <header>
+      <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header.partial.html"></nav>
+      <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
+    </header>
   </body>
 </html>
