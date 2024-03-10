@@ -1,0 +1,27 @@
+@import "global.css";
+
+.features ul {
+    list-style: none;
+}
+
+.features__container {
+    max-width: 819px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.features__content-topic-main-list-item-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.features__content-topic-main-list-item-image-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+@media (min-width: 820px) {
+    .features__container {
+        max-width: 1210px;
+    }
+}
