@@ -2,15 +2,33 @@
     font-family: "GraphikBold";
     src: url("../fonts/Graphik-Bold-Web.woff2") format("woff2");
     src: url("../fonts/Graphik-Bold-Web.woff") format("woff");
-  }
+}
   
   @font-face {
       font-family: "GraphikRegular";
       src: url("../fonts/Graphik-Regular-Web.woff2") format("woff2");
       src: url("../fonts/Graphik-Regular-Web.woff") format("woff");
-    }
+}
 
-    *,
+::root {
+    --font-color-light: #fff;
+    --font-color-dark-title: #252B42;
+    --font-color-dark-text: #374754;
+    --font-size-title: 48px;
+    --font-size-subtitle: 28px;
+    --font-size-title-secondary: 20px;
+    --font-size-subtitle-secondary: 18px;
+    --font-size-card-price: 74px;
+    --letter-space-small: 0.1px;
+    --letter-space-medium: 0.2px;
+    --line-height-h1: 84px;
+    --line-height-title: 55px;
+    --line-height-subtitle: 40px;
+    --line-height-title-secondary: 28px;
+    --line-height-subtitle-secondary: 25px;
+}
+
+*,
 *:before,
 *:after {
 	padding: 0;

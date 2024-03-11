@@ -1,9 +1,7 @@
-@import "global.css";
-
 .header__nav {
     position: absolute;
     width: 100%;
-    color: #fff;
+    color: var(--font-color-light);
 }
 
 .header__nav-container {
@@ -52,7 +50,7 @@
 .header__nav-content-burger-icon {
     min-width: 100%;
     min-height: 2px;
-    background-color: white;
+    background-color: #fff;
     position: relative;
     margin: 3px 0px;
 }
@@ -68,8 +66,6 @@
 @media (min-width: 820px) {
     .header__nav-container {
         max-width: 1210px;
-    }
-    .header__nav-content {
     }
     .header__nav-content-left {
         flex-direction: row;

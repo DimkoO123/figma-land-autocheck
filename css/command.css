@@ -1,0 +1,9 @@
+.header-hero__content-button {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 70px;
+    background-color: #2091F9;
+    border-radius: 30px;
+    margin: 60px 0px;
+}

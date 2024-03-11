@@ -1,11 +1,9 @@
-@import "global.css";
-
 .header-hero {
     background-image: url("../img/header/headerBG.png");
     background-size: cover;
     background-position: 49.5% 100%;
     min-height: 100vh;
-    color: white;
+    color: #fff;
 }
 
 .header-hero__container {
@@ -24,8 +22,7 @@
 }
 
 .header-hero__content-title {
-    font-size: 48px;
-    line-height: 55px;
+    font-size: var();
     margin: 30px 0px;
 }
 
@@ -36,16 +33,6 @@
 
 .header-hero__content-subtitle span {
     display: none;
-}
-
-.header-hero__content-button {
-    font-size: 16px;
-    text-decoration: none;
-    color: white;
-    padding: 8px 70px;
-    background-color: #2091F9;
-    border-radius: 30px;
-    margin: 60px 0px;
 }
 
 @media (min-width: 820px) {
