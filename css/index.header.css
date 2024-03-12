@@ -31,6 +31,11 @@
     padding-right: 10px;
 }
 
+.header__nav-content-left-items-item a {
+    text-decoration: none;
+    color: var(--font-color-light);
+}
+
 .header__nav-content-right {
     display: none;
 }
@@ -50,7 +55,7 @@
 .header__nav-content-burger-icon {
     min-width: 100%;
     min-height: 2px;
-    background-color: #fff;
+    background-color: var(--font-color-light);
     position: relative;
     margin: 3px 0px;
 }

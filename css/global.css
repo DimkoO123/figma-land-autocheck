@@ -10,7 +10,7 @@
       src: url("../fonts/Graphik-Regular-Web.woff") format("woff");
 }
 
-::root {
+:root {
     --font-color-light: #fff;
     --font-color-dark-title: #252B42;
     --font-color-dark-text: #374754;
@@ -49,4 +49,10 @@ body {
 img {
 	display: block;
     width: 100%;
+}
+
+h1,
+h2 {
+    font-size: var(--font-size-title);
+    line-height: var(--line-height-title);
 }

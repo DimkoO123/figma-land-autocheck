@@ -1,0 +1,16 @@
+.fastestway {
+    margin-top: 60px;
+}
+
+.fastestway__container {
+    max-width: 819px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+@media (min-width: 820px) {
+    .fastestway__container {
+        max-width: 1210px;
+    }
+}

@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: 49.5% 100%;
     min-height: 100vh;
-    color: #fff;
+    color: var(--font-color-light);
 }
 
 .header-hero__container {
@@ -22,13 +22,13 @@
 }
 
 .header-hero__content-title {
-    font-size: var();
     margin: 30px 0px;
+    max-width: 630px;
 }
 
 .header-hero__content-subtitle {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: var(--font-size-subtitle);
+    line-height: var(--line-height-subtitle);
 }
 
 .header-hero__content-subtitle span {
