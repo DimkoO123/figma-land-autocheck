@@ -1,9 +1,20 @@
 .button--try-free {
     font-size: 16px;
     text-decoration: none;
-    color: white;
+    color: var(--font-color-light);
     padding: 8px 70px;
-    background-color: #2091F9;
+    background-color: var(--button-background-color);
     border-radius: 30px;
     margin: 60px 0px;
+}
+
+.input--email {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--font-color-dark-text);
+    background-color: var(--input-background-color);
+    border-radius: 30px;
+    margin: 60px 0px;
+    padding: 8px 25px;
+    width: 208.48px;
 }
